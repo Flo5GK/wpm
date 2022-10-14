@@ -3,15 +3,6 @@ import time
 import random
 from curses import wrapper
 
-
-target_list = [
-    "La maman de Tom est blonde",
-    "Mon papa veut te parler tout de suite",
-    "Ce code est vraiment totalement parfait",
-    "Pourquoi tu continue d'essayer de t'améliorer ?",
-    "Franchement j'ai plus d'idée de phrase à te faire taper"
-]
-
 def start_scr(stdscr):
     stdscr.clear() 
     stdscr.addstr( 0,0, "Bienvenue dans WPM !",curses.color_pair(3))
